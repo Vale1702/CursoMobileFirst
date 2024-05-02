@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-
+    <link rel="stylesheet" href="./assets/css/tablet.css" media="(min-width: 930px)">
 </head>
 <body>
     <header>
@@ -52,32 +52,34 @@
                         <p><b>Actualizado:</b> 19 de Julio 23:45</p>
                     </div>
                 </div>
+                </div>
+
+                <div class="main-commission-table">
+                    <p class="commission-table--title">Corredoras</p>
                 <div class="commission-table--container">
-                    <p class="commission-table--title"> Corredoras</p>
                     <table>
-                        <tr>
-                            <td class="table__top-left">Bitrade</td>
-                            <td class="table__top-right table__right">$ 12.96 <span></span></td>
-                        </tr>
-                        <tr>
-                            <td>Bitpreco</td>
-                            <td class="table__right">$ 13.07</td>
-                        </tr>
-                        <tr>
-                            <td>Novadax</td>
-                            <td class="table__right">$ 13.15</td>
-                        </tr>
-                        <tr>
-                            <td class="table__bottom-left">Coinext</td>
-                            <td class="table__bottom-right table__right">$ 14.96</td>
-                        </tr>
+                    <tr>
+                        <td class="table__top-left">Bitrade</td>
+                        <td class="table__top-right table__right">$ 12.96 <span class="down"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Bitpreco</td>
+                        <td class="table__right">$ 13.07 <span class="up"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Novadax</td>
+                        <td class="table__right">$ 12.15 <span class="down"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="table__bottom-left">Coinext</td>
+                        <td class="table__bottom-right table__right">$ 14.96 <span class="down"></span> </td>
+                    </tr>
                     </table>
+                    <div class="commission-table--date">
+                        <p><b>Actualizado:</b> 19 de Julio 23:48</p>
+                    </div>
                 </div>
-                
-                <div class="commission-table--date">
-                    <p><b>Actualizado:</b> 19 de Julio 23:48</p>
-                </div>
-            </div>
+                </div>      
             </section>
         </section>
         <section class="main-product-detail">
@@ -119,11 +121,11 @@
             </div>
             <section class="plans-container--slider">
                 <article class="plans-container-card">
-                    <p class="recomendado">Tarjeta Izq</p>
+                    <p class="recomendado">Básico</p>
                     <div class="plan-info-container">
                         <h3 class="plan-card--title">Pago Mensual</h3>
-                        <p class="plan-card--price"><span>$</span>5</p>
-                        <p class="plan-card--saving">*Ahorras $50 comparado al plan mensual.</p>
+                        <p class="plan-card--price"><span>$</span>19</p>
+                        <p class="plan-card--saving">*Paga 1 vez al mes desde el día de tu compra.</p>
                         <button class="plan-card--ca"> Escoger este<span></span></button>
                     </div>
                 </article>
@@ -132,17 +134,17 @@
                     <div class="plan-info-container">
                         <h3 class="plan-card--title">Pago Anual</h3>
                         <p class="plan-card--price"><span>$</span>99</p>
-                        <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <p class="plan-card--saving">*Ahorras $129 comparado al plan anual.</p>
                         <button class="plan-card--ca"> Escoger este<span></span></button>
                     </div>
                 </article>
                 <article class="plans-container-card">
-                    <p class="recomendado">Tarjeta Derecha</p>
+                    <p class="recomendado">Lifetime Alpha</p>
                     <div class="plan-info-container">
                         <h3 class="plan-card--title">Pago Familiar</h3>
-                        <p class="plan-card--price"><span>$</span>220</p>
-                        <p class="plan-card--saving">*Ahorras $90 comparado al plan mensual.</p>
-                        <button class="plan-card--ca"> Escoger este <span></span></button>
+                        <p class="plan-card--price"><span>$</span>129</p>
+                        <p class="plan-card--saving">*Ahorro infinito (50 cupos).</p>
+                        <button class="plan-card--ca" id="escoger-plan"> Escoger este <span></span></button>
                     </div>
                 </article>
             </section>
